@@ -1,0 +1,34 @@
+{
+  "name": "loopback-redis-cache",
+  "version": "1.0.0",
+  "description": "Redis cache for loopback.io",
+  "main": "rediscache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkatsar/loopback-redis-cache.git"
+  },
+  "keywords": [
+    "loopback",
+    "redis",
+    "cache",
+    "loopback",
+    "cache",
+    "loopback",
+    "redis",
+    "loopback",
+    "redis",
+    "cache"
+  ],
+  "author": "Vassileios Katsaris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkatsar/loopback-redis-cache/issues"
+  },
+  "homepage": "https://github.com/vkatsar/loopback-redis-cache#readme",
+  "dependencies": {
+    "redis": "^2.7.1"
+  }
+}
