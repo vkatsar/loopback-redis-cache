@@ -5,6 +5,7 @@ Redis cache mixin for loopback.io
 
   - Cache every GET request using only one get option
   - Different redis server for each model
+  - Delete cache on every update or delete
 
 ### Installation
 
