@@ -1,6 +1,6 @@
 {
   "name": "loopback-redis-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redis cache for loopback.io",
   "main": "rediscache.js",
   "scripts": {
