@@ -2,7 +2,7 @@ module.exports = function(Model, options) {
     if(options.client){
         var clientSettings = options.client;
     }else{
-        var app = require('../server/server.js');
+        var app = require('../../server/server.js');
         var clientSettings = app.get('redis');
     }
 
