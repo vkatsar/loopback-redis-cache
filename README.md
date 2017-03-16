@@ -38,7 +38,8 @@ loopback-redis-cache is currently extended with the following plugins.
 
 | Plugin | README |
 | ------ | ------ |
-| redis | [https://github.com/NodeRedis/node_redis/blob/master/README.md] [PlDb] |
+| redis | [https://github.com/NodeRedis/node_redis/blob/master/README.md] |
+| redis-delete-pattern | [https://github.com/uber-archive/redis-delete-pattern/blob/master/README.md] |
 
 ### How to use it
 At your model (using config.json settings)
