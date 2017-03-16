@@ -15,13 +15,22 @@ loopback-redis-cache requires [Node.js](https://nodejs.org/) v4+ to run.
 ```sh
 $ npm install loopback-redis-cache --save
 ```
-Edit /server/config.json and add 
+Add to /server/config.json and add 
 ```
   "redis": {
     "host": "127.0.0.1",
     "password": "your-redis-password"
   }
 ```  
+Add to /server/model-config.json
+```
+    "mixins": [
+      ...
+      "../node_modules/loopback-redis-cache"
+      ...
+    ]
+```
+
 ### Plugins
 
 loopback-redis-cache is currently extended with the following plugins.
