@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/vkatsar/loopback-redis-cache#readme",
   "dependencies": {
-    "redis": "^2.7.1"
+    "redis": "^2.7.1",
+    "redis-delete-pattern": "^0.1.0"
   }
 }
