@@ -48,3 +48,10 @@ At your model (using external redis server)
      }    
   }
   ```
+  
+  Example 
+    ``
+  http://0.0.0.0:3000/api/games?cache=120
+    ``
+  cache value in seconds
+  
