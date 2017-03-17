@@ -23,7 +23,7 @@
     "cache"
   ],
   "author": "Vassileios Katsaris",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vkatsar/loopback-redis-cache/issues"
   },
