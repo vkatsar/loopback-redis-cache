@@ -3,9 +3,9 @@ Redis cache mixin for loopback.io
 
 # Features
 
-  - Cache every GET request using only one get option
-  - Different redis server for each model
-  - Delete cache on every update or delete
+  - Cache every GET request using only one get option.
+  - Different Redis server for each model with fallback to config.json Redis server.
+  - Invalidate cache on every create, update or delete.
 
 ### Installation
 
@@ -16,7 +16,7 @@ loopback-redis-cache requires [Node.js](https://nodejs.org/) v4+ to run.
 ```sh
 $ npm install loopback-redis-cache --save
 ```
-Add to /server/config.json and add 
+Add to /server/config.json
 ```
   "redis": {
     "host": "127.0.0.1",
@@ -65,4 +65,21 @@ At your model (using external redis server)
   http://0.0.0.0:3000/api/games?cache=120
     ``
   cache value in seconds
+  
+  ### AngularJS SDK example
+  
+  ```
+    Category.findOne({
+        filter: {
+            where: {
+                categoryId: $scope.Id
+            }
+        },
+        cache: 123
+    }, function (item) {
+        console.log(item);
+    }, function (err) {
+        console.log(err);
+    });
+  ```
   
