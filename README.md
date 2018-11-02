@@ -83,3 +83,7 @@ At your model (using external redis server)
     });
   ```
   
+### See also
+-----------------------
+Host your web site easily, instantly and FREE PHP, MySQL and free SSL One Click WordPress Installation!
+https://hostdrop.eu
